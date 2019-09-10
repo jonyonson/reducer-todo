@@ -22,7 +22,7 @@ const TodoForm = props => {
         onChange={e => setInput(e.target.value)}
       />
       <button type="submit">Add Todo</button>
-      <button onClick={handleClear}>Clear</button>
+      <button onClick={handleClear}>Clear Completed</button>
     </form>
   );
 };
